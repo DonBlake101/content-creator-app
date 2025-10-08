@@ -1,12 +1,36 @@
-# React + Vite
+# CreatorFlowAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CreatorFlowAI is a platform for creators to **track performance**, **compare earnings across platforms**, **plan content**, and **connect with brands**.  
+Built with **React (front end)** and **Node.js/Express (API)**, with OAuth integrations to major social platforms.
 
-Currently, two official plugins are available:
+> Modules: **Analytics Dashboard** • **Earnings Comparison** • **Content Calendar** • **Creator Profiles & Marketplace**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1) Analytics Dashboard
+- Connect **YouTube, TikTok, Snapchat, Meta** accounts.
+- Pull key metrics (views, watch time, RPM/CPM proxies where available, follower growth, CTR estimates).
+- Channel/video-level breakdowns + per-platform trend lines.
+
+### 2) Earnings Comparison
+- Normalize reported earnings into a single currency.
+- Side-by-side comparisons (YouTube vs TikTok vs Snapchat vs Meta).
+- Simple forecasting: moving-average + growth-rate sliders.
+
+### 3) Content Calendar
+- Plan posts across platforms with tags, status (idea → drafted → scheduled → published).
+- Per-platform requirements (aspect ratio, length, caption limits).
+- Export/share calendar; filter by platform/series/campaign.
+
+### 4) Creator Marketplace
+- Public **creator profile** (niche, audience size, example posts, pricing).
+- Brand discovery with keyword + audience filters.
+- Inbound “briefs” and accept/decline flow (basic messaging stub).
+
+---
+
+
+
+
